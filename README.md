@@ -1,6 +1,51 @@
-RESOURCES: Q&A source: https://www.javatpoint.com/css-mcq
+## Joanna Pastcan's Coding-Quiz
 
-# 04 Web APIs: Code Quiz
+# Description 
+* As a Coding-Bootcamp student, I will apply my current coding knowledge to this assignment and be resourceful to apply new knowledge by conducting research and trial and error to create a working, interactive, timed, multiple-choice Coding Quiz. 
+
+* This website will include HTML, CSS, and JavaScript with clean, polished, responsive, and functional code that I have written.
+
+
+# Acceptance Criteria
+
+## This is the acceptance criteria followed: 
+
+GIVEN I am taking a code quiz
+WHEN I click the start button
+THEN a timer starts and I am presented with a question
+WHEN I answer a question
+THEN I am presented with another question
+WHEN I answer a question incorrectly
+THEN time is subtracted from the clock
+WHEN all questions are answered or the timer reaches 0
+THEN the game is over
+WHEN the game is over
+THEN I can save my initials and my score
+
+
+# Installation 
+* To install this project, I have pushed and deployed it to GitHub.
+* GitHub Link:
+* Website Link:
+
+* Image of the Coding Quiz Website:
+
+
+# Usage 
+* This site and code will be used for my Coding Bootcamp Homework 4 assignment.
+
+# Credits
+* Joanna Pastcan 2021
+* Q&A source: https://www.javatpoint.com/css-mcq
+* Coding Class README below: © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+
+
+
+
+
+
+# CODING QUIZ CLASS README: 04 Web APIs: Code Quiz
 
 ## Your Task
 
