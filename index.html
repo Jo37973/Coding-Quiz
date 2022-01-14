@@ -1,0 +1,53 @@
+<!--This is the HTML for the main Coding Quiz page. There is a second HTML, scores.html, for the High scores portion of the site.-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz</title>
+    <!--This is the link to the style sheet for the page-->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <!--This is the body of the page-->
+  <body>
+    <!--This is the the link to the scores HTML-->
+    <div class="scores"><a href="./scores.html">High Scores</a></div>
+    <!--This is Time Remaining timer-->
+    <div class="timer">Time Remaining: <span id="time">0</span></div>
+    <div class="intro">
+      <div id="start-quiz" class="start">
+        <!--This is the body text of the page giving the user the overview of the quiz-->
+        <h1>Coding Quiz</h1>
+        <p>
+          Try to answer the five coding questions within the time limit. You have 100 seconds, 20 seconds per question. If you answer a question incorrectly, time will be deducted. When all the questions are answered, or the timer runs out, the game is over. At the end of the game, you can save your score!
+        </p>
+        <!--This is the Start button to start the quiz-->
+        <button id="start">Start!</button>
+      </div>
+      <!--This is for the quiz questions including the hide options-->
+      <div id="questions" class="hide">
+        <h2 id="question-type"></h2>
+        <div id="options" class="options"></div>
+      </div>
+      <!--This is for the End of the Quiz-->
+      <div id="end" class="hide">
+        <h2>End of the Quiz!</h2>
+        <!--This shows the user their final score-->
+        <p>Your score is <span id="final-score"></span>.</p>
+        <p>
+          <!--This is where the user can input their initials for a high score-->
+          Enter your initials: <input type="text" id="initials" max="3" />
+          <!--This is the high score submit button-->
+          <button id="submit">Submit</button>
+        </p>
+      </div>
+<!--This is for the notes showing Correct or Incorrect during the quiz-->
+      <div id="note" class="note hide"></div>
+    </div>
+    <!--These are the links to the Javascript pages, including the Questions and the functions for the quiz-->
+    <script src="./questions.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
+</html>

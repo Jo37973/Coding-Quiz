@@ -1,0 +1,102 @@
+
+/* Style sheet for the Coding Quiz*/
+/* This styles the body of the page*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(125, 168, 125);
+  }
+  /* This styles the High Scores link*/
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  /* This changes the color when the mouse is hovered over*/
+  a:hover {
+    color: turquoise;
+  }
+/* The following styles the given classes */
+  .scores {
+    float: top left;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .timer {
+    float: bottom left;
+    margin: 20px;
+    font-weight: bold;
+    color: yellow;
+    padding: 20px;
+  }
+
+  .intro {
+    margin: 100px auto 0 auto;
+    max-width: 700px;
+  }
+  
+  .start {
+    text-align: center;
+  }
+/* This styles the Start button*/
+  .start button {
+    color: black;
+    background-color: rgb(211, 27, 27);
+  }
+/* This styles the buttons */
+  button {
+    display: inline;
+    margin: 10px;
+    font-size: 100%;
+    background-color: rgb(80, 207, 195);
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+    box-shadow: 0 10px 10px rgb(15, 15, 15);
+  }
+  /* This styles the button color when the mouse hovers over*/
+  button:hover {
+    background-color: white;
+  }
+/* This styles the hide class*/
+  .hide {
+    display: none;
+  }
+  
+  .options button {
+    display: block;
+  }
+  
+  ol {
+    padding-left: 10px;
+    max-height: 200px;
+  }
+  /* This styles each of the high scores*/
+  li {
+    padding: 10px;
+    list-style: decimal inside;
+    border-style: inset;
+  }
+  /* This styles the coloring of the rows, odd or even, with the high scores*/
+  li:nth-child(odd) {
+    background-color: rgb(183, 136, 202);
+  }
+
+  li:nth-child(even) {
+    background-color: rgb(219, 219, 109);
+  }
+
+  #initials {
+    font-size: 20px;
+  }
+
+  .note {
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: red;
+    font-weight: bold;
+  }
+  
+ 
