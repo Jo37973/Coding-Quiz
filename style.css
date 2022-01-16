@@ -6,7 +6,7 @@ body {
     font-size: 20px;
     background-color: rgb(125, 168, 125);
   }
-  /* This styles the High Scores link*/
+  /* This styles the High Scores link at the top left of the page*/
   a {
     color: black;
     text-decoration: none;
@@ -46,7 +46,7 @@ body {
 /* This styles the buttons */
   button {
     display: inline;
-    margin: 10px;
+    margin: 40px;
     font-size: 100%;
     background-color: rgb(80, 207, 195);
     border-radius: 10px;
@@ -73,9 +73,9 @@ body {
   }
   /* This styles each of the high scores*/
   li {
-    padding: 10px;
     list-style: decimal inside;
     border-style: inset;
+    padding: 1px;
   }
   /* This styles the coloring of the rows, odd or even, with the high scores*/
   li:nth-child(odd) {

@@ -25,7 +25,9 @@
 
 # Installation 
 * To install this project, I have pushed and deployed it to GitHub.
+
 * GitHub Link:
+
 * Website Link:
 
 * Image of the Coding Quiz Website:
