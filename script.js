@@ -47,7 +47,7 @@ var initialsEl = document.getElementById("initials");
 var noteEl = document.getElementById("note");
 
 //Function to start the quiz
-function startTheQuiz() {
+function startQuiz() {
 
   // Hide the start screen
   var startScreenEl = document.getElementById("start-quiz");
@@ -185,6 +185,6 @@ function saveScores() {
   }
 }
 // This is when the user clicks the submit button
-submitButton.onclick = saveScorescore;
+submitButton.onclick = saveScores;
 // This is when the user clicks the start button
-startButton.onclick = startTheQuiz;
+startButton.onclick = startQuiz;
