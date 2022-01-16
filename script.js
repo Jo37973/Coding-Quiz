@@ -41,8 +41,8 @@ var timerId;
 var questionsEl = document.getElementById("questions");
 var timerEl = document.getElementById("time");
 var optionsEl = document.getElementById("options");
-var submitButton = document.getElementById("submit");
-var startButton = document.getElementById("start");
+var submitBtn = document.getElementById("submit");
+var startBtn = document.getElementById("start");
 var initialsEl = document.getElementById("initials");
 var noteEl = document.getElementById("note");
 
@@ -185,6 +185,6 @@ function saveScore() {
   }
 }
 // This is when the user clicks the submit button
-submitButton.onclick = saveScore;
+submitBtn.onclick = saveScore;
 // This is when the user clicks the start button
-startButton.onclick = startQuiz;
+startBtn.onclick = startQuiz;
