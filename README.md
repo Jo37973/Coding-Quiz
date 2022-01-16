@@ -31,6 +31,10 @@
 * Website Link:
 
 * Image of the Coding Quiz Website:
+* ![Coding-Quiz1](https://user-images.githubusercontent.com/92402053/149644133-c9d674ab-94ef-4485-8ba5-05ef248c9f41.png)
+* ![Coding-Quiz2](https://user-images.githubusercontent.com/92402053/149644137-669ab9c0-15c9-428c-ad35-388fbd1e1cfc.png)
+* ![Coding-Quiz3](https://user-images.githubusercontent.com/92402053/149644138-8ad3be85-4208-4b04-be93-3c666d13d35c.png)
+* ![Coding-Quiz4](https://user-images.githubusercontent.com/92402053/149644140-5345fc25-6181-436d-a307-7eaf48a547c8.png)
 
 
 
