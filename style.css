@@ -46,11 +46,11 @@ body {
 /* This styles the buttons */
   button {
     display: inline;
-    margin: 40px;
+    margin: 15px;
     font-size: 100%;
     background-color: rgb(80, 207, 195);
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
     color: black;
     box-shadow: 0 10px 10px rgb(15, 15, 15);
   }
@@ -92,9 +92,9 @@ body {
 
   .note {
     display: inline-block;
-    font-size: 30px;
-    margin-top: 20px;
-    padding-top: 10px;
+    font-size: 25px;
+    margin-top: 10px;
+    padding-top: 5px;
     color: red;
     font-weight: bold;
   }
