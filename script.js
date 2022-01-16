@@ -62,11 +62,11 @@ function startQuiz() {
   // This shows the user the timer/time with the set time 
   timerEl.textContent = time;
 
-  getTheQuestion();
+  getQuestion();
 }
 
 // Function for the questions
-function getTheQuestion() {
+function getQuestion() {
 
   // This gets the questions and current question
   var currentQuestion = questions[currentQuestionOption];
@@ -88,14 +88,14 @@ function getTheQuestion() {
     optionSelect.textContent = i + 1 + ". " + option;
 
     // Event Listener for the click event
-    optionSelect.onclick = questionsClick;
+    optionSelect.onclick = questionClick;
 
     // Displays/adding the buttons with choices on the page
     optionsEl.appendChild(optionSelect);
   });
 }
 
-function questionsClick() {
+function questionClick() {
   // This checks if the user has made an incorrect choice for an answer
   if (this.value !== questions[currentQuestionOption].answer) {
     // When incorrect, take 10 seconds off the timer as a penalty
@@ -128,7 +128,7 @@ function questionsClick() {
     quizDone();
     // If not done with the questions, get the next question to run
   } else {
-    getTheQuestion();
+    getQuestion();
   }
 }
 
@@ -162,7 +162,7 @@ function clock() {
 }
 
 //User Scores (also refer to scores.html)
-function saveScores() {
+function saveScore() {
   // Get the initials/value from the input from the user (keep to 3 initials, otherwise trim the rest off)
   var initials = initialsEl.value.trim();
 
@@ -185,6 +185,6 @@ function saveScores() {
   }
 }
 // This is when the user clicks the submit button
-submitButton.onclick = saveScores;
+submitButton.onclick = saveScore;
 // This is when the user clicks the start button
 startButton.onclick = startQuiz;
