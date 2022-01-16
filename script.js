@@ -117,8 +117,8 @@ function questionClick() {
   noteEl.setAttribute("class", "note");
   // Set a timer for how long to display the note
   setTimeout(function() {
-    noteEl.setAttribute("class", "note hide");
-  }, 2 * 1000);
+    noteEl.setAttribute("class", "hide");
+  }, 1 * 1000);
 
   // Next question
   currentQuestionOption++;
