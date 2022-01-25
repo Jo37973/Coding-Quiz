@@ -42,7 +42,7 @@
 * This site and code will be used for my Coding Bootcamp Homework 4 assignment.
 
 # Credits
-* Joanna Pastcan 2021
+* Joanna Pastcan 2022
 * Q&A source: https://www.javatpoint.com/css-mcq
 * Coding Class README below: © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 * https://www.google.com as a resource to look up information
