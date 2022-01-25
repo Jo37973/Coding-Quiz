@@ -1,6 +1,6 @@
 // Q&A source for Coding Questions with MC Answers: https://www.javatpoint.com/css-mcq
 
-// Variable for the quiz questions
+// Quiz Questions - questions, options, and the answer
 var questions = [
   {
     question: "CSS stands for:",
@@ -36,7 +36,7 @@ var currentQuestionOption = 0;
 var time = questions.length * 20;
 var timerId;
 
-// variables for the DOM elements
+
 var questionsEl = document.getElementById("questions");
 var timerEl = document.getElementById("time");
 var optionsEl = document.getElementById("options");
@@ -64,7 +64,7 @@ function startQuiz() {
   getQuestion();
 }
 
-// Function for the questions
+
 function getQuestion() {
 
   // This gets the questions and current question
@@ -83,7 +83,7 @@ function getQuestion() {
     var optionSelect = document.createElement("button");
     optionSelect.setAttribute("class", "option");
     optionSelect.setAttribute("value", option);
-// Placing the answer text on the buttons
+    // Placing the answer text on the buttons
     optionSelect.textContent = i + 1 + ". " + option;
 
     // Event Listener for the click event
@@ -105,9 +105,8 @@ function questionClick() {
     }
     // Adjust and show the new current time on the timer
     timerEl.textContent = time;
-    // If the answer is wrong, set the value to incorrect
+    // If the answer is wrong, set the value to incorrect, otherwise correct
     noteEl.textContent = "Incorrect!";
-    // Otherwise, if the answer is correct, set the value to Correct
   } else {
     noteEl.textContent = "Correct!";
   }
@@ -119,13 +118,12 @@ function questionClick() {
     noteEl.setAttribute("class", "hide");
   }, 1 * 1000);
 
-  // Next question
+ 
   currentQuestionOption++;
 
-  // This is checking that all of the questions are done/quiz end
+  // This is checking that all of the questions are done/quiz end, otherwise get the next question
   if (currentQuestionOption === questions.length) {
     quizDone();
-    // If not done with the questions, get the next question to run
   } else {
     getQuestion();
   }
