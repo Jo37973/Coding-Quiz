@@ -49,7 +49,7 @@ var noteEl = document.getElementById("note");
 function startQuiz() {
 
   // Hide the start screen
-  var startScreenEl = document.getElementById("start-quiz");
+  var startScreenEl = document.getElementById("startQuiz");
   startScreenEl.setAttribute("class", "hide");
 
   // Show the questions
@@ -71,7 +71,7 @@ function getQuestion() {
   var currentQuestion = questions[currentQuestionOption];
 
   // This gets the next question
-  var questionEl = document.getElementById("question-type");
+  var questionEl = document.getElementById("questionType");
   questionEl.textContent = currentQuestion.question;
 
   // This removes other quetsions
@@ -141,7 +141,7 @@ function quizDone() {
   endScreenEl.removeAttribute("class");
 
   // Final Score is shown
-  var finalScoreEl = document.getElementById("final-score");
+  var finalScoreEl = document.getElementById("finalScore");
   // User score is based off time left
   finalScoreEl.textContent = time;
 
