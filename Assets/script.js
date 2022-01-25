@@ -1,4 +1,3 @@
-// Coding Quiz Questions and Answers
 // Q&A source for Coding Questions with MC Answers: https://www.javatpoint.com/css-mcq
 
 // Variable for the quiz questions

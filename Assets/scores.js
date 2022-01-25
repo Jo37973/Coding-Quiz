@@ -1,4 +1,3 @@
-
 //High Scores JS page (refer to scores.html as well)
 function runHighscores() {
     // High Scores from localstorage, or if nothing there - blank
